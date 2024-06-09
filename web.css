@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 1.5rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a.cta {
+    background-color: #ff6347;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+.hero {
+    text-align: center;
+    padding: 4rem 2rem;
+    background: #f4f4f4;
+}
+
+.hero .cta {
+    background-color: #ff6347;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.pricing {
+    text-align: center;
+    padding: 2rem 2rem;
+}
+
+.pricing .plan {
+    display: inline-block;
+    border: 1px solid #ddd;
+    padding: 2rem;
+    margin: 1rem;
+    width: 30%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.pricing .plan h3 {
+    margin-top: 0;
+}
+
+.pricing .plan .price {
+    font-size: 2rem;
+    color: #333;
+}
+
+.pricing .plan ul {
+    list-style: none;
+    padding: 0;
+}
+
+.pricing .plan ul li {
+    padding: 0.5rem 0;
+}
+
+.pricing .plan .cta {
+    background-color: #ff6347;
+    color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.features, .testimonials, .faq {
+    padding: 2rem 2rem;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 2rem 2rem;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-links, .contact-info, .social-media {
+    margin: 1rem;
+}
+
+.footer-links a, .social-media a {
+    color: white;
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
